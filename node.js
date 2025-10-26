@@ -5,7 +5,7 @@ const client = new Client({
   partials: [Partials.Channel]
 });
 
-const TOKEN = "YOUR_NEW_BOT_TOKEN_HERE";
+const TOKEN = "MTQzMTcyMzEzMzY1NTU4MDc2NA.GBDgAA.2W7anfmDRxiah-AH9lvYwWHkL2OWhaorge54TY";
 
 client.once("ready", () => {
   console.log(`✅ Logged in as ${client.user.tag}`);
